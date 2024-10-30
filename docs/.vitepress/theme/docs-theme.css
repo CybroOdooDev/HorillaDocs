@@ -1,0 +1,14 @@
+.git-icon {
+  content: url('https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg');
+  height: 26px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .git-icon {
+    filter: invert(40%); /* Inverts the icon color in dark mode */
+  }
+}
