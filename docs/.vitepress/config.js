@@ -13,10 +13,6 @@ module.exports = {
     }
     ,
     themeConfig: {
-        outline: {
-            level: [2, 3], // Include both `##` and `###` headings in the right-side ToC
-            label: 'On this page' // Optional: Customize label text
-        },
         carbonAds: {
             link: "blah"
         },
