@@ -46,9 +46,8 @@ module.exports = {
                 text: "Installation & Setup", items: [
                     { text: "Getting Started", link: "/" },
                     { text: "Install Python", link: "/#python-installation" },
-                    { text: "Install Horilla", link: "/#horilla-installation" },
                     { text: "Road Map", link: "/#roadmap" },
-                    
+
                 ]
             },
 
@@ -118,12 +117,18 @@ module.exports = {
                 ]
             },
             {
-                text: 'Environ Configuration',
-            },
-            {
                 text: 'Deployment',
                 items: [
-                    { text: 'Ubuntu', link: '/v2.0/doc/deployment/ubuntu' },
+                    {
+                        text: 'Ubuntu',
+                        items: [
+                            {
+                                text: "Gunicorn and Nginx",
+                                link: '/v2.0/doc/deployment/ubuntu'
+
+                            }
+                        ]
+                    },
                     { text: 'AWS Linux', link: '/api/authentication' },
                     { text: 'Mac OS', link: '/api/employee-management' },
                     { text: 'Windows', link: '/api/recruitment' },
