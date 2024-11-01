@@ -13,7 +13,7 @@
 
 ## Usage Example
 
-Here’s how to use `HorillaTabView` in a Django project:
+Here’s how to use `HTV` in Horilla:
 
 ```python
 from horilla_views.generic.cbv.views import HorillaTabView

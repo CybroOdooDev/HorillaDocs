@@ -11,9 +11,9 @@ The `HorillaCardView` class extends Django's `ListView` and is customized for re
 | **template_name**           | `str`       | Path to the template for rendering the view.                                           |
 | **context_object_name**     | `str`       | Name of the context variable for the queryset.                                         |
 | **search_url**              | `str`       | URL used for search functionality.                                                     |
-| **details**                 | `dict`      | A dictionary for view-specific details of the records.                 |
+| **details**                 | `dict`      | A dictionary for view-specific details of the records.                                 |
 | **actions**                 | `list`      | List of actions available for each card (e.g., Edit, Delete).                          |
-| **card_attrs**              | `str`       | Attributes related to the card element.                                              |
+| **card_attrs**              | `str`       | Attributes related to the card element.                                                |
 | **show_filter_tags**        | `bool`      | Boolean flag to show or hide filter tags in the UI.                                    |
 | **filter_keys_to_remove**   | `list`      | List of filter keys to exclude from the filter tags.                                   |
 | **records_per_page**        | `int`       | Number of records to display per page in pagination.                                   |
@@ -24,6 +24,7 @@ The `HorillaCardView` class extends Django's `ListView` and is customized for re
 
 
 ## Usage Example
+Here’s how to use `HCV` in Horilla:
 
 ```python
 

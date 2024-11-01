@@ -55,7 +55,7 @@
 
 ## Usage Example
 
-Here is an example of how to define a `HorillaListView` with custom columns and actions:
+Here is an example of how to define a `HLV` with custom columns and actions:
 
 ```python
 
@@ -234,4 +234,4 @@ Similiarly to the action method and actions options are the same but the main di
   Group by feature support to any related fields by passing params like `?field=any_related_fields`
 
 - **Bulk Actions**:  
-  Bulk action like export, update support
+  Bulk action like export, update support!

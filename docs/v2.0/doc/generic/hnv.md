@@ -24,12 +24,11 @@
 
 ## Usage Example
 
-Here’s how to use `HorillaNavView` in a Django project:
+Here’s how to use `HNV` in Horilla:
 
 ```python
 from horilla_views.generic.cbv.views import HorillaNavView
 from django.urls import reverse_lazy
-from myapp.filters import EmployeeFilter
 
 class EmployeeNavView(HorillaNavView):
     """

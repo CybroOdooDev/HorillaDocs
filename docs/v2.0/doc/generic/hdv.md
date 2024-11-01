@@ -16,7 +16,7 @@
 
 ## Usage Example
 
-Here’s how to use `HorillaDetailedView` in a Django project:
+Here’s how to use `HDV` in Horilla:
 
 ```python
 from horilla_views.generic.cbv.views import HorillaDetailedView
