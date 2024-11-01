@@ -60,13 +60,13 @@ module.exports = {
 
                 items: [
                     {
-                        text: 'List view', link: '/v2.0/doc/generic/hlv',
+                        text: 'List view', link: '/v2.0/doc/generic/views/hlv',
                     },
-                    { text: 'Card view', link: '/v2.0/doc/generic/hcv' },
-                    { text: 'Detailed view', link: '/v2.0/doc/generic/hdv' },
-                    { text: 'Tab view', link: '/v2.0/doc/generic/htv' },
-                    { text: 'Nav view', link: '/v2.0/doc/generic/hnv' },
-                    { text: 'Form view', link: '/v2.0/doc/generic/hfv' },
+                    { text: 'Card view', link: '/v2.0/doc/generic/views/hcv' },
+                    { text: 'Detailed view', link: '/v2.0/doc/generic/views/hdv' },
+                    { text: 'Tab view', link: '/v2.0/doc/generic/views/htv' },
+                    { text: 'Nav view', link: '/v2.0/doc/generic/views/hnv' },
+                    { text: 'Form view', link: '/v2.0/doc/generic/views/hfv' },
                     { text: 'Methods' },
                 ]
             },
