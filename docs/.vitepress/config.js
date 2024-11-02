@@ -67,7 +67,18 @@ module.exports = {
                     { text: 'Tab view', link: '/v2.0/doc/generic/views/htv' },
                     { text: 'Nav view', link: '/v2.0/doc/generic/views/hnv' },
                     { text: 'Form view', link: '/v2.0/doc/generic/views/hfv' },
-                    { text: 'Methods' },
+                    {
+                        text: 'Methods', link: '/v2.0/doc/generic/methods/methods',
+                        items: [
+                            { text: "CBV Methods", link: '/v2.0/doc/generic/methods/methods' },
+                        ]
+                    },
+                    {
+                        text: 'Methods', link: '/v2.0/doc/generic/methods/decorators',
+                        items: [
+                            { text: "CBV Decorators", link: '/v2.0/doc/generic/decorators/decorators' },
+                        ]
+                    },
                 ]
             },
 
