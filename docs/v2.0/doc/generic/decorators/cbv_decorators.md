@@ -23,6 +23,18 @@ This document provides detailed descriptions and usage guidelines for the class 
 **Parameters**:
 - `view_func (function)`: The view function to be decorated.
 
+**Example Usage:**
+```python
+from django.utils.decorators import method_decorator
+from horilla_views.methods import login_required
+from horilla_views.generic.cbv.views import HorillaListView
+
+@method_decorator(login_required, name="dispatch")
+class EmployeeList(HorillaListView):
+    ...
+
+```
+
 
 ## permission_required
 
