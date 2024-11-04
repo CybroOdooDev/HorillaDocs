@@ -74,9 +74,10 @@ module.exports = {
                         ]
                     },
                     {
-                        text: 'Decorators', link: '/v2.0/doc/generic/methods/cbv_decorators',
+                        text: 'Decorators', link: '/v2.0/doc/generic/methods/decorators',
                         items: [
-                            { text: "CBV Decorators", link: '/v2.0/doc/generic/decorators/decorators' },
+                            { text: "CBV Decorators", link: '/v2.0/doc/generic/decorators/cbv_decorators' },
+                            { text: "General Decorators", link: '/v2.0/doc/generic/decorators/general_decorators' },
                         ]
                     },
                 ]
