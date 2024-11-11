@@ -141,7 +141,7 @@ module.exports = {
                             }
                         ]
                     },
-                    { text: 'AWS Linux', link: '/api/authentication' },
+                    { text: 'AWS Linux', link: '/v2.0/doc/deployment/linux' },
                     { text: 'Mac OS', link: '/api/employee-management' },
                     { text: 'Windows', link: '/api/recruitment' },
                     { text: 'Docker', link: '/api/recruitment' },
