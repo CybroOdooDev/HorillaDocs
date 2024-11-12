@@ -124,8 +124,8 @@ module.exports = {
                         ]
 
                     },
-                    { text: 'AWS S3 Integration', link: '/api/getting-started' },
-                    { text: 'DB Backup', link: '/api/getting-started' },
+                    { text: 'AWS S3 Integration', link: '/v2.0/doc/integrations/s3bucket' },
+                    { text: 'DB Backup', },
                 ]
             },
             {
