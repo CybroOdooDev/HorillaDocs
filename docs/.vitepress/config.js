@@ -135,9 +135,12 @@ module.exports = {
                         text: 'Ubuntu',
                         items: [
                             {
+                                text: "Service File",
+                                link: '/v2.0/doc/deployment/ubuntu_service_file'
+                            },
+                            {
                                 text: "Gunicorn and Nginx",
-                                link: '/v2.0/doc/deployment/ubuntu'
-
+                                link: '/v2.0/doc/deployment/nginx_gunicorn'
                             }
                         ]
                     },
