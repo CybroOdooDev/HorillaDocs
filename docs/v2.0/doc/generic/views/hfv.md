@@ -64,7 +64,7 @@ class DepartmentCreateForm(HorillaFormView):
 
 ### Out put for hlv
 
-![alt text](image-7.png)
+![alt text](media/hfv.png)
 
 ## Methods
 

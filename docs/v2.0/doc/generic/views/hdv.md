@@ -57,7 +57,7 @@ class EmployeeDetailedView(HorillaDetailedView):
 
 ### Out put for hdv
 
-![alt text](image-5.png)
+![alt text](media/hdv.png)
 
 
 ## Action Method

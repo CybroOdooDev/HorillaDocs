@@ -56,7 +56,7 @@ class Employee(HorillaCardView):
 
 ### Out put for hcv
 
-![alt text](image-3.png)
+![alt text](media/hcv.png)
 
 ## Key Features
 

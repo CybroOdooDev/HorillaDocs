@@ -117,7 +117,7 @@ def employee_edit_accessibility(
 
 ### Out put for hlv
 
-![alt text](image-1.png)
+![alt text](media/hlv.png)
 
 ## Bulk Update
 Bulk update functionality is provided through `bulk_update_fields`. Users can select multiple records and update them in bulk. Permissions for bulk updates are controlled through the `bulk_update_accessibility` method.

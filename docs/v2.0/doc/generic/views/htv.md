@@ -48,7 +48,7 @@ class EmployeeTabView(HorillaTabView):
 
 ### Example Output for HTV
 
-![alt text](image-4.png)
+![alt text](media/htv.png.png)
 
 ## Tab Content Caching
 
