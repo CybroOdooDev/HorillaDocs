@@ -100,13 +100,10 @@ module.exports = {
                 // collapsible: true,
                 collapsed: true,
                 items: [
-                    { text: 'Getting Started', link: "/v2.0/index" },
-                    { text: 'Authentication' },
-                    { text: 'Employee Management' },
-                    { text: 'Base API' },
-                    { text: 'Employee API' },
-                    { text: 'Attendance API' },
-                    { text: 'Leave API' },
+                    { text: 'Base API', link:'/v2.0/doc/api/baseapi' },
+                    { text: 'Employee API' , link:'/v2.0/doc/api/employeeapi'},
+                    { text: 'Attendance API', link:'/v2.0/doc/api/attendanceapi'},
+                    { text: 'Leave API', link:'/v2.0/doc/api/leaveapi'},
                 ]
             },
             {
