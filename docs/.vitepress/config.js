@@ -42,7 +42,7 @@ module.exports = {
         ],
         sidebar: [
             {
-                collapsed: true,
+                collapsed: false,
                 text: "Installation & Setup", items: [
                     {
                         text: "Getting Started", link: "/",
@@ -51,11 +51,11 @@ module.exports = {
                             { text: "Road Map", link: "/#roadmap" },
                         ]
                     },
-
                     { text: "Installation using shell", link: "/installation_using_shell" },
-
+                    { text: 'Databases', link: "/database" },
                 ]
             },
+
 
 
             {
@@ -167,15 +167,7 @@ module.exports = {
                     { text: 'Outlook', link: '/api/recruitment' },
                 ]
             },
-            {
-                text: 'Databases',
-                // collapsible: true,
-                collapsed: true,
-                items: [
-                    { text: 'Postgres', link: '/api/getting-started' },
-                    { text: 'Sqlite3', link: '/api/employee-management' },
-                ]
-            },
+
         ],
     },
 }
