@@ -44,9 +44,15 @@ module.exports = {
             {
                 collapsed: true,
                 text: "Installation & Setup", items: [
-                    { text: "Getting Started", link: "/" },
-                    { text: "Install Python", link: "/#python-installation" },
-                    { text: "Road Map", link: "/#roadmap" },
+                    {
+                        text: "Getting Started", link: "/",
+                        items: [
+                            { text: "Install Python", link: "/#python-installation" },
+                            { text: "Road Map", link: "/#roadmap" },
+                        ]
+                    },
+
+                    { text: "Installation using shell", link: "/installation_using_shell" },
 
                 ]
             },
@@ -100,10 +106,10 @@ module.exports = {
                 // collapsible: true,
                 collapsed: true,
                 items: [
-                    { text: 'Base API', link:'/v2.0/doc/api/baseapi' },
-                    { text: 'Employee API' , link:'/v2.0/doc/api/employeeapi'},
-                    { text: 'Attendance API', link:'/v2.0/doc/api/attendanceapi'},
-                    { text: 'Leave API', link:'/v2.0/doc/api/leaveapi'},
+                    { text: 'Base API', link: '/v2.0/doc/api/baseapi' },
+                    { text: 'Employee API', link: '/v2.0/doc/api/employeeapi' },
+                    { text: 'Attendance API', link: '/v2.0/doc/api/attendanceapi' },
+                    { text: 'Leave API', link: '/v2.0/doc/api/leaveapi' },
                 ]
             },
             {
