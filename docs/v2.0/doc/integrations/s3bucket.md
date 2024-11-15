@@ -12,16 +12,16 @@ Before integrating AWS S3 with Horilla, let's first configure the necessary comp
 
 ### **1.1 Create an AWS IAM User**
 
-1. Log in to your AWS Management Console and switch to **IAM (Identity and Access Management)**.![alt text](image-2.png)
-2. Create a new IAM user with **AmazonS3FullAccess** permission. This ensures the user has full access to manage S3 buckets and objects.![alt text](image-3.png)
-3. Once the user is created, navigate to the **Security Credentials** tab in the user's details view.![alt text](image-4.png)
-4. Generate a new **Access Key**. Choose the “Local Code” option for best practices.![alt text](image-5.png)
-5. Make sure to note down the **Access Key ID** and **Secret Access Key**, as these will be used later in the Horilla configurations.![alt text](image-6.png)
+1. Log in to your AWS Management Console and switch to **IAM (Identity and Access Management)**.![alt text](./media/image-2.png)
+2. Create a new IAM user with **AmazonS3FullAccess** permission. This ensures the user has full access to manage S3 buckets and objects.![alt text](./media/image-3.png)
+3. Once the user is created, navigate to the **Security Credentials** tab in the user's details view.![alt text](./media/image-4.png)
+4. Generate a new **Access Key**. Choose the “Local Code” option for best practices.![alt text](./media/image-5.png)
+5. Make sure to note down the **Access Key ID** and **Secret Access Key**, as these will be used later in the Horilla configurations.![alt text](./media/image-6.png)
 
 ### **1.2 Create an S3 Bucket**
 
 1. To access S3 in the AWS Management Console, simply log in and select "S3" from the "Services" menu.  
-2. Create a new S3 bucket for storing your media files. Make sure to enable **Block all public access** check box to keep your data private.![alt text](image-7.png)
+2. Create a new S3 bucket for storing your media files. Make sure to enable **Block all public access** check box to keep your data private.![alt text](./media/image-7.png)
 3. Take note of the bucket name and region, as these will also be required later.  
    
 

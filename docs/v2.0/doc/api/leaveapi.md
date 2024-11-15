@@ -22,7 +22,7 @@ https://YOUR_DOMAIN/api/leave
 
 ### **Endpoints**
 
-#### **1\. Get Employee Availabile Leave**
+## **Get Employee Availabile Leave**
 
 * **Endpoint:** `GET /available-leave/`  
 * **Description:** Get available leaves of an employee  
@@ -66,7 +66,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **2\. Get Employee Self Leave Requests**
+## **Get Employee Self Leave Requests**
 
 * **Endpoint:** `GET /user-request/`  
 * **Description:** Get all leave requests of an employee  
@@ -118,7 +118,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **3\. Create Employee Self Leave Request**
+## **Create Employee Self Leave Request**
 
 * **Endpoint:** `POST /user-request/`  
 * **Description:** Create a new self-leave request for an employee  
@@ -174,7 +174,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **4\. Update Employee Self Leave Request**
+## **Update Employee Self Leave Request**
 
 * **Endpoint:** `PUT /user-request/{leave_request_id}`  
 * **Description:** Upadet a self-leave request of an employee  
@@ -231,7 +231,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **5\. Delete Employee Self Leave Request**
+## **Delete Employee Self Leave Request**
 
 * **Endpoint:** `DELETE  /user-request/{leave\_request\_id} ` 
 * **Description:** Delete a self-leave request of an employee  
@@ -245,7 +245,7 @@ https://YOUR_DOMAIN/api/leave
 {"message": "Leave request deleted successfully.."}
 ``` 
 
-#### **6\. Get All Leave Types**
+## **Get All Leave Types**
 
 * **Endpoint:** `GET  /leave-type/`  
 * **Description:** Get all Leave Types  
@@ -286,7 +286,7 @@ https://YOUR_DOMAIN/api/leave
 
 ```
 
-#### **7\. Create a New Leave Types**
+## **Create a New Leave Types**
 
 * **Endpoint:** `POST /leave-type/  `
 * **Description:** Create a new leave type   
@@ -366,7 +366,7 @@ https://YOUR_DOMAIN/api/leave
 
 ```
 
-#### **8\. Update an Existing Leave Types**
+## **Update an Existing Leave Types**
 
 * **Endpoint:** `PUT /leave-type/{leave\_type\_id}  `
 * **Description:** Update an existing leave type   
@@ -445,7 +445,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **9\. Delete an Existing Leave Types**
+## **Delete an Existing Leave Types**
 
 * **Endpoint:** DELETE /leave-type/{leave\_type\_id}  
 * **Description:** Delete an existing leave type   
@@ -459,7 +459,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **10\. Get Employee allocation Leave Requests**
+## **Get Employee allocation Leave Requests**
 
 * **Endpoint:** `GET /allocation-request/`  
 * **Description:** Get all employees allocation   
@@ -505,7 +505,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **11\. Create  Employee Leave Allocation Requests**
+## **Create  Employee Leave Allocation Requests**
 
 * **Endpoint:** `POST /allocation-request/`  
 * **Description:** Create all leave allocation requests of an employee  
@@ -567,7 +567,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **12\. Update Employee Leave Allocation Requests**
+## **Update Employee Leave Allocation Requests**
 
 * **Endpoint:** `PUT /allocation-request/{allocation_request_id}/`  
 * **Description:** update a leave allocation request of an employee if the request is in requested state  
@@ -628,7 +628,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **13\. Delete Employee Leave Allocation Requests**
+## **Delete Employee Leave Allocation Requests**
 
 * **Endpoint:** `DELETE /allocation-request/{allocation_request_id}/`  
 * **Description:** Delete a leave allocation request of an employee if the request is in the requested state  
@@ -641,7 +641,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **14\. Get all Employee Assigned Leaves**
+## **Get all Employee Assigned Leaves**
 
 * **Endpoint:** `GET /assign-leave/`  
 * **Description:** Get all employees assigned leave types with their count  
@@ -705,7 +705,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **15\. Create an Employee Assigned Leaves**
+## **Create an Employee Assigned Leaves**
 
 * **Endpoint:** `POST /assign-leave/`  
 * **Description:** Create or assign leave types to all employees   
@@ -732,7 +732,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **16\. Update an Employee Available Leave**
+## **Update an Employee Available Leave**
 
 * **Endpoint:** `PUT /assign-leave/{available_leave_id}/`  
 * **Description:** Update available days of assigned leave type of an employee   
@@ -758,7 +758,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **17\. Delete an Employee Assigned Leave Type**
+## **Delete an Employee Assigned Leave Type**
 
 * **Endpoint:** `DELETE /assign-leave/{available_leave_id}/`  
 * **Description:** Delete the assigned leave type of an employee  
@@ -772,7 +772,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **18\. Get all Employee Leave Request**
+## **Get all Employee Leave Request**
 
 * **Endpoint:** `GET /request/`  
 * **Description:** Get all employee leave requests  
@@ -816,7 +816,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **19\. Create a Employee Leave Request**
+## **Create a Employee Leave Request**
 
 * **Endpoint:** `POST /request/`  
 * **Description:** Create a new employee leave request  
@@ -882,7 +882,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **20\. Update an Employee Leave Request**
+## **Update an Employee Leave Request**
 
 * **Endpoint:** `PUT /request/{leave_request_id}/`  
 * **Description:** Update an existing employee leave request  
@@ -948,7 +948,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **21\. Delete Employee Leave Request**
+## **Delete Employee Leave Request**
 
 * **Endpoint:** `Delete /request/{leave_request_id}/`  
 * **Description:** Delete an existing employee leave request if its in requested state  
@@ -962,7 +962,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **22\. Get all Company Leaves**
+## **Get all Company Leaves**
 
 * **Endpoint:** `GET /company-leave/`  
 * **Description:** Get all company leaves  
@@ -1001,7 +1001,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **23\. Create a new  Company Leaves**
+## **Create a new  Company Leaves**
 
 * **Endpoint:** `POST /company-leave/`  
 * **Description:** Create a new company leave  
@@ -1037,7 +1037,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **24\. Update an Existing Company Leaves**
+## **Update an Existing Company Leaves**
 
 * **Endpoint:** `PUT /company-leave/{company_leave_id}/`  
 * **Description:** Create a new company leave  
@@ -1073,7 +1073,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **25\. Delete Company Leaves**
+## **Delete Company Leaves**
 
 * **Endpoint:** `Delete /company-leave/{company_leave_id}/`  
 * **Description:** Delete an existing company leave  
@@ -1087,7 +1087,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **26\. Get all Company Holidays**
+## **Get all Company Holidays**
 
 * **Endpoint:** `GET /holiday/`  
 * **Description:** Get all company holidays  
@@ -1118,7 +1118,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **27\. Create a New Company Holidays**
+## **Create a New Company Holidays**
 
 * **Endpoint:** `POST /holiday/`  
 * **Description:** Create a new company holiday  
@@ -1161,7 +1161,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **28\. Update Company Holidays**
+## **Update Company Holidays**
 
 * **Endpoint:** `PUT /holiday/{holiday_id}/`  
 * **Description:** Update an existing company holiday  
@@ -1204,7 +1204,7 @@ https://YOUR_DOMAIN/api/leave
 }
 ```
 
-#### **29\. Delete Company Holidays**
+## **Delete Company Holidays**
 
 * **Endpoint:** `Delete /holiday/{holiday_id}/`  
 * **Description:** Delete an existing company holiday  
@@ -1218,7 +1218,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **30\. Approve Leave Request**
+## **Approve Leave Request**
 
 * **Endpoint:** `PUT /approve/{leave_request_id}/`  
 * **Description:** Approve a leave request if the request is in the requested state.  
@@ -1232,7 +1232,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **31\. Reject Leave Request**
+## **Reject Leave Request**
 
 * **Endpoint:** `PUT /reject/{leave_request_id}/`  
 * **Description:** Reject a leave request if the request is not rejected state.  
@@ -1246,7 +1246,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **32\. Cancel Leave Request**
+## **Cancel Leave Request**
 
 * **Endpoint:** `PUT /cancel/{leave_request_id}/`  
 * **Description:** Employee can cancel a leave request that is in an approved state.  
@@ -1260,7 +1260,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **33\. Approve Leave Allocation Request**
+## **Approve Leave Allocation Request**
 
 * **Endpoint:** `PUT /allocation-approve/{allocation_request_id}/`  
 * **Description:** Approve employee leave allocation request if the request is in the requested state.  
@@ -1274,7 +1274,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **34\. Reject Leave Allocation Request**
+## **Reject Leave Allocation Request**
 
 * **Endpoint:** `PUT /allocation-reject/{allocation_request_id}/`  
 * **Description:** Reject employee leave allocation request if the request is not in a rejected state.  
@@ -1288,7 +1288,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **35\. Leave Request Bulk Approve**
+## **Leave Request Bulk Approve**
 
 * **Endpoint:** `PUT /request-bulk-action/`  
 * **Description:** Approve bulk leave request.  
@@ -1314,7 +1314,7 @@ https://YOUR_DOMAIN/api/leave
 {}
 ```
 
-#### **36\. Leave Request Bulk Approve**
+## **Leave Request Bulk Approve**
 
 * **Endpoint:** `DELETE /request-bulk-action/`  
 * **Description:** Delete bulk leave request.  

@@ -1206,8 +1206,7 @@ Not found
 ```
 Authorization: Bearer {token}
 ```
-
-*   
+ 
 * **Description:** All endpoints require authentication. Include the `Authorization` header with a valid API key or bearer token to access the endpoints.
 
 ### **Base URL**

@@ -128,7 +128,7 @@ module.exports = {
 
                     },
                     { text: 'AWS S3 Integration', link: '/v2.0/doc/integrations/s3bucket' },
-                    { text: 'DB Backup', },
+                    { text: 'Gdrive Backup', link: '/v2.0/doc/integrations/gdrivebackup' },
                 ]
             },
             {

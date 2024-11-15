@@ -1294,7 +1294,7 @@ https://YOUR_DOMAIN/api/base
   "based_on": "day",
   "rotate_after_day": 7,
   "rotate_every_weekend": "monday",
-  "rotate_every": "1",
+  "rotate_every": "1", 
   "is_active": true
 }
 ```
@@ -2165,7 +2165,7 @@ No content
 * **404 Not Found:** Resource not found.  
 * **500 Internal Server Error:** An unexpected error occurred on the server.
 
-## **1\. Approve Work Type Request**
+## **Approve Work Type Request**
 
 **Endpoint**
 
@@ -2202,7 +2202,7 @@ Content-Type: application/json
 
 
 
-## **1\. Cancel Work Type Request**
+## **Cancel Work Type Request**
 
 **Endpoint**
 
@@ -2355,9 +2355,9 @@ Retrieves a specific shift request by its ID.
   "reallocate_to": 3,
   "reallocate_approved": false,
   "reallocate_canceled": false
-}
+} 
 ```
-
+ 
 **3\. Update Shift Request**
 
 **Endpoint**  

@@ -121,7 +121,7 @@ POST https://YOUR_DOMAIN/api/attendance/clock-out/
 
 ## **Attendance API Documentation**
 
-## **Overview**
+#### **Overview**
 
 This API provides endpoints to manage attendance records. It supports creating, retrieving, updating, deleting records, filtering, grouping, and permission-based access.
 
@@ -144,7 +144,7 @@ Authorization: Bearer {token}
 All endpoints require authentication. Include the `Authorization` header with a valid API key or bearer token to access the endpoints.
 
 
-## **Endpoints**
+#### **Endpoints**
 
 ### **1\. Create an Attendance Record**
 
@@ -406,7 +406,7 @@ All endpoints require authentication. Include the `Authorization` header with a 
 }
 ```
 
-## **Error Handling**
+#### **Error Handling**
 
 * **400 Bad Request**: Invalid input or parameters.  
 * **401 Unauthorized**: Authentication failure or invalid token.  
@@ -461,7 +461,7 @@ All endpoints require authentication. Include the `Authorization` header with a 
 
 ## **Attendance Request API Documentation**
 
-## **Base URL**
+#### **Base URL**
 
 ```
 https://YOUR\_DOMAIN/api/attendance
@@ -480,7 +480,7 @@ Authorization: Bearer {token}
 All endpoints require authentication. Include the `Authorization` header with a valid API key or bearer token to access the endpoints.
 
 
-## **Endpoints**
+#### **Endpoints**
 
 ### **1\. Retrieve an Attendance Request**
 
@@ -652,7 +652,7 @@ All endpoints require authentication. Include the `Authorization` header with a 
 }
 ```
 
-## **Error Handling**
+#### **Error Handling**
 
 * **400 Bad Request**: Invalid input or parameters.  
 * **401 Unauthorized**: Authentication failure or invalid token.  
@@ -661,7 +661,7 @@ All endpoints require authentication. Include the `Authorization` header with a 
 
 # **Attendance Request Approval API**
 
-## **Base URL**
+#### **Base URL**
 
 ```
 https://YOUR\_DOMAIN/api/attendance
@@ -715,12 +715,12 @@ Authorization: Bearer YOUR_ACCESS_TOKEN
 
 # **Attendance Request Cancelation API** 
 
-## **Base URL**
+#### **Base URL**
 
 ```
 https://YOUR_DOMAIN/api/attendance
 ```
-
+Hour Account API Documentation
 ### **Authentication**
 
 **Required:** API Key or Bearer Token
@@ -735,7 +735,7 @@ All endpoints require authentication. Include the `Authorization` header with a 
 
 ---
 
-## **Endpoints**
+#### **Endpoints**
 
 ### **Cancel an Attendance Request**
 
@@ -785,17 +785,17 @@ Authorization: Bearer YOUR_ACCESS_TOKEN
 
 # **Hour Account API Documentation**
 
-## **Overview**
+#### **Overview**
 
 This API provides endpoints to manage hour account records, also known as attendance overtime records. It supports creating, retrieving, updating, deleting records, filtering, grouping, and permission-based access.
 
-## **Base URL**
+#### **Base URL**
 
 ```
 https://YOUR_DOMAIN/api/attendance
 ```
 
-## **Authentication**
+#### **Authentication**
 
 **Required:** API Key or Bearer Token
 
@@ -807,7 +807,7 @@ Authorization: Bearer {token}
 
 All endpoints require authentication. Include the `Authorization` header with a valid API key or bearer token to access the endpoints.
 
-## **Endpoints**
+#### **Endpoints**
 
 ### **1\. Create an Hour Account Record**
 
@@ -1037,7 +1037,7 @@ All endpoints require authentication. Include the `Authorization` header with a 
 }
 ```
 
-## **Error Handling**
+#### **Error Handling**
 
 * **400 Bad Request:** Invalid input or parameters.  
 * **401 Unauthorized:** Authentication failure or invalid token.  
@@ -1069,7 +1069,7 @@ Authorization: Bearer {token}
 
 All endpoints require authentication. Include the Authorization header with a valid API key or bearer token to access the endpoints.
 
-
+w
 ### **Endpoints**
 
 #### **1\. Retrieve Late Come Early Out Records**
@@ -1099,32 +1099,32 @@ All endpoints require authentication. Include the Authorization header with a va
 
 ```json
 {
-    "count": 20,
-    "next": "https://YOUR_DOMAIN/api/attendance/late-come-early-out-view/?page=2",
-    "previous": null,
-    "results": [
-        {
+"count": 20,
+"next": "https://YOUR_DOMAIN/api/attendance/late-come-early-out-view/?page=2",
+"previous": null,
+"results": [
+    {
+        "id": 1,
+        "employee_id": 1,
+        "attendance_date": "2024-08-14",
+        "attendance_clock_in": "09:30:00",
+        "attendance_clock_out": "16:30:00",
+        "type": "late",
+        "department": "Sales",
+        "at_work_second": 23400,
+        "overtime_second": 0,
+        "attendance_id": {
             "id": 1,
-            "employee_id": 1,
-            "attendance_date": "2024-08-14",
-            "attendance_clock_in": "09:30:00",
-            "attendance_clock_out": "16:30:00",
-            "type": "late",
-            "department": "Sales",
-            "at_work_second": 23400,
-            "overtime_second": 0,
-            "attendance_id": {
-                "id": 1,
-                "minimum_hour": "07:30",
-                "attendance_worked_hour": "07:00",
-                "attendance_overtime_approve": false,
-                "attendance_validated": false,
-                "shift_id": 2,
-                "work_type_id": 1
-            }
-        },
-        ...
-    ]
+            "minimum_hour": "07:30",
+            "attendance_worked_hour": "07:00",
+            "attendance_overtime_approve": false,
+            "attendance_validated": false,
+            "shift_id": 2,
+            "work_type_id": 1
+        }
+    },
+    ...
+]
 }
 ```
 
@@ -1303,7 +1303,6 @@ Authorization: Bearer {token}
 All endpoints require authentication. Include the Authorization header with a valid API key or bearer token to access the endpoints.
 
 
-
 ### **Endpoints**
 
 #### **1\. Retrieve Count of Offline Employees**
@@ -1320,7 +1319,6 @@ All endpoints require authentication. Include the Authorization header with a va
     "count": 25
 }
 ```
-
 
 ## **Offline Employees List API Documentation**
 
@@ -1411,7 +1409,7 @@ All endpoints require authentication. Include the Authorization header with a va
 #### **1\. Get Checking Status**
 
  mlk,m.,,* **Endpoint**: `GET /checking-in/`  
-* **Description**: Retrieves the current check-in status of the authenticated employee, including their forecasted work duration and clock-in time.  
+-* **Description**: Retrieves the current check-in status of the authenticated employee, including their forecasted work duration and clock-in time.  
 * **Permissions**: Requires authentication (`IsAuthenticated` permission).  
 * **Response**:
 
