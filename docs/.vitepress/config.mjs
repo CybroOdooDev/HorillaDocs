@@ -13,6 +13,9 @@ const technicalSidebarv2 = json5.parse(fs.readFileSync(techSidebarPathv2, 'utf8'
 const funcSidebarPathv1 = './docs/functional/v1.0/sidebar.json5';
 const funcSidebarv1 = json5.parse(fs.readFileSync(funcSidebarPathv1, 'utf8'));
 
+const funcSidebarPathv2 = './docs/functional/v2.0/sidebar.json5';
+const funcSidebarv2 = json5.parse(fs.readFileSync(funcSidebarPathv2, 'utf8'));
+
 // Export the VitePress configuration
 export default defineConfig({
     vite: {
@@ -90,6 +93,7 @@ export default defineConfig({
                 text: 'v1.0',
                 items: [
                     { text: 'v1.0', link: '/functional/v1.0/' },
+                    { text: 'v2.0', link: '/functional/v2.0/' },
                 ],
                 activeMatch: "/functional/"
             },
@@ -99,6 +103,7 @@ export default defineConfig({
         sidebar: {
             '/': funcSidebarv1,
             '/functional/v1.0/': funcSidebarv1,
+            '/functional/v2.0/': funcSidebarv2,
             '/technical/v2.0/': technicalSidebarv2,
         },
 

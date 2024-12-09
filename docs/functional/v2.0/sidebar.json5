@@ -1,10 +1,6 @@
 [
   {
-    "text": "Overview",
-    "link": "/functional/v1.0/index"
-  },
-  {
-    "text": "Setup",
-    "link": "/functional/v1.0/setup"
+    text: "Recuritment",
+    link: "/functional/v2.0/recruitment/candidate_self_tracking",
   }
 ]
