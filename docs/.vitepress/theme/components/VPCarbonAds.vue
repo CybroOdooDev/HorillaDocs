@@ -10,7 +10,7 @@ const { page } = useData()
 const props = defineProps<{
   carbonAds: DefaultTheme.CarbonAdsOptions
 }>()
-4
+
 const carbonOptions = props.carbonAds
 
 const { isAsideEnabled } = useAside()
