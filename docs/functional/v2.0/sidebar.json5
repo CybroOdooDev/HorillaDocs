@@ -1,6 +1,18 @@
 [
   {
     text: "Recuritment",
-    link: "/functional/v2.0/recruitment/candidate_self_tracking",
+    items: [
+      {text:"Pipeline & Kanban", link:"/functional/v2.0/recruitment/pipeline"},
+      {text:"Resume Shortlisting", link:"/functional/v2.0/recruitment/resume_shortlisting"},
+      {text:"Candidates", link:"/functional/v2.0/recruitment/candidates"},
+      {text:"Recruitment", link:"/functional/v2.0/recruitment/recruitment"},
+      {text:"Stages", link:"/functional/v2.0/recruitment/stages"},
+      {text:"Interview", link:"/functional/v2.0/recruitment/interview"},
+      {text:"Survey & Open Jobs", link:"/functional/v2.0/recruitment/survey"},
+      {text:"Skill Zone", link:"/functional/v2.0/recruitment/skill_zone"},
+      {
+        text: "Candidate Self Tracking", link: "/functional/v2.0/recruitment/candidate_self_tracking"
+      }
+    ]
   }
 ]
