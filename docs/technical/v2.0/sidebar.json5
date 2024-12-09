@@ -92,6 +92,9 @@
             {
                 text: 'Gdrive Backup', link: '/technical/v2.0/doc/integrations/gdrivebackup'
             },
+            {
+                text: 'Whatsapp', link: '/technical/v2.0/doc/integrations/whatsapp/whatsapp'
+            },
         ]
     },
     {
