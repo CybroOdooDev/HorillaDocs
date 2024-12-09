@@ -93,7 +93,7 @@ export default defineConfig({
                 text: 'v1.0',
                 items: [
                     { text: 'v1.0', link: '/functional/v1.0/' },
-                    { text: 'v2.0', link: '/functional/v2.0/' },
+                    // { text: 'v2.0', link: '/functional/v2.0/' },
                 ],
                 activeMatch: "/functional/"
             },
@@ -103,7 +103,7 @@ export default defineConfig({
         sidebar: {
             '/': funcSidebarv1,
             '/functional/v1.0/': funcSidebarv1,
-            '/functional/v2.0/': funcSidebarv2,
+            // '/functional/v2.0/': funcSidebarv2,
             '/technical/v2.0/': technicalSidebarv2,
         },
 
