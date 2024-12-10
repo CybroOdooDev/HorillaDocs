@@ -1,4 +1,5 @@
 [
+  {text:"Dashboard", link:"/functional/v2.0/dashboard"},
   {
     text: "Recuritment",
     items: [
@@ -14,5 +15,6 @@
         text: "Candidate Self Tracking", link: "/functional/v2.0/recruitment/candidate_self_tracking"
       }
     ]
-  }
+  },
+  { text: "Onboarding", link: "/functional/v2.0/onboarding/onboarding"}
 ]
