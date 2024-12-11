@@ -1,9 +1,11 @@
-
+---
+outline : [2,3]
+---
 # Deduction Management
 
 The Deductions section within the Payroll module of the HRMS allows HR professionals to manage employee deductions efficiently. Users can create, view, edit, and delete deductions, ensuring all deduction-related details are accessible and organized.
 
-#### **Accessing the Deductions Section**
+### **Accessing the Deductions Section**
 
 * **Navigate to Payroll:**  
   * On the left side menu, click on **Payroll**.  
@@ -12,7 +14,7 @@ The Deductions section within the Payroll module of the HRMS allows HR professio
 
 ![alt text](media/image-5.png)
 
-#### **Working with the Deductions Table**
+### **Working with the Deductions Table**
 
 The Deductions table provides a detailed view of all defined deductions, with columns for:
 
@@ -26,12 +28,12 @@ The Deductions table provides a detailed view of all defined deductions, with co
 * **Based On:** Shows whether the basic pay or gross pay.  
 * **Actions:** Buttons to view, edit, or delete the deduction.
 
-#### **Filtering and Grouping Deductions**
+### **Filtering and Grouping Deductions**
 
 1. **Filter Deductions:**  
    * Click on the **Filter** button to narrow down deductions based on specific criteria like pretax status, condition, or specific employees.
 
-#### **Creating a New Deduction**
+### **Creating a New Deduction**
 
 * **Click on the \+ Create button** at the top-right corner of the Deductions page.  
 * **Fill in the deduction details:**  
@@ -51,7 +53,7 @@ The Deductions table provides a detailed view of all defined deductions, with co
 
 ![alt text](media/image-6.png)
 
-#### **Editing and Deleting Deductions**
+### **Editing and Deleting Deductions**
 
 * **To Edit a Deduction:**  
   * Click the **Edit** icon next to the deduction in the Actions column.  
