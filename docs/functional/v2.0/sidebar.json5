@@ -48,4 +48,5 @@
   },
   { text: "Attendance", link: "/functional/v2.0/attendance/attendance"},
   { text: "Leave", link: "/functional/v2.0/leave/leave"},
+  { text: "Performance", link: "/functional/v2.0/performance/pms"},
 ]
