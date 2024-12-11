@@ -14,7 +14,7 @@ Leave management is a critical module that tracks employee time off, including s
 * Acts as a hub for a glance at leave status.  
 * Provides a visual summary of leave status, making it convenient and straightforward to manage time off.
 
-![alt text](image.png)
+![alt text](media/image.png)
 
 ### **Admin Dashboard**
 
@@ -47,7 +47,7 @@ Leave management is a critical module that tracks employee time off, including s
 * Provides a dedicated space for managing leave-related activities.  
 * Keeps users updated on their time-off status, all in one convenient place.
 
-![alt text](image-1.png)
+![alt text](media/image-1.png)
 
 * The image displays detailed personal information for employees, including:  
   * **New Requests** (marked as 1 in the image)  
@@ -72,7 +72,7 @@ Leave management is a critical module that tracks employee time off, including s
 * Empower employees to manage their leave independently, promoting autonomy and efficiency.  
 * Lightens the administrative load on managers and enhances employees' ability to handle leave requests effectively.
 
-![alt text](image-2.png)
+![alt text](media/image-2.png)
 
 ### **User request creation**
 
@@ -84,7 +84,7 @@ Leave management is a critical module that tracks employee time off, including s
 * Simplifies the procedure, making it easy for employees to manage their leave without hassle.  
 * Enhances overall workflow and productivity by allowing employees to submit leave requests with just a few clicks.
 
-![alt text](image-3.png)
+![alt text](media/image-3.png)
 
 ## **Leave Request** 
 
@@ -100,7 +100,7 @@ Leave management is a critical module that tracks employee time off, including s
 * Streamlines leave management by providing all necessary information in one place.  
 * Ensures efficient handling of leave requests, contributing to smooth operations within the company.
 
-![alt text](image-4.png)
+![alt text](media/image-4.png)
 
 ### **Leave Request Create Button**
 
@@ -114,7 +114,7 @@ Leave management is a critical module that tracks employee time off, including s
 * Streamlines the leave request process, making it more efficient and organized.  
 * Simplifies leave management and ensures that employee requests are promptly addressed.
 
-![alt text](image-5.png)
+![alt text](media/image-5.png)
 
 ### **Leave Request Approve/Reject Button** 
 
@@ -138,7 +138,7 @@ Leave management is a critical module that tracks employee time off, including s
 * The efficient design saves time and enhances productivity.  
 * Ensures leave requests are handled promptly and effectively within the organization.
 
-![alt text](image-6.png)
+![alt text](media/image-6.png)
 
 ## **Leave Type**
 
@@ -150,7 +150,7 @@ Leave management is a critical module that tracks employee time off, including s
 * Streamlines the leave management process with a comprehensive solution for organizing and adapting leave types.  
 * Contributes to effective leave management within the company.
 
-![alt text](image-7.png)
+![alt text](media/image-7.png)
 
 ### **Leave type create button**
 
@@ -164,7 +164,7 @@ Leave management is a critical module that tracks employee time off, including s
 * The new leave type is created after entering all required information and submitting the form.  
 * The new leave type is then added to the list of available leave types within the system.
 
-![alt text](image-8.png)
+![alt text](media/image-8.png)
 
 ### **Leave assign one**: 
 
@@ -174,7 +174,7 @@ Leave management is a critical module that tracks employee time off, including s
 * This feature enables easy and efficient management and assignment of leave types.  
 * Eliminates the need to navigate to a separate section of the system for assigning leave types.
 
-![alt text](image-9.png)
+![alt text](media/image-9.png)
 
 ## **Assigned leave**
 
@@ -185,7 +185,7 @@ Leave management is a critical module that tracks employee time off, including s
 * Simplifies the process of overseeing and updating leave types for all employees in one place.  
 * Streamlines leave management and ensure accuracy in allocating leave benefits across the organization.
 
-![alt text](image-10.png)
+![alt text](media/image-10.png)
 
 ### **Assign button**
 
@@ -197,7 +197,7 @@ Leave management is a critical module that tracks employee time off, including s
 * Enhances efficiency by ensuring employees receive the appropriate leave types promptly.  
 * A practical tool that makes leave management more effective and less time-consuming for HR teams and managers.
 
-![alt text](image-11.png)
+![alt text](media/image-11.png)
 
 ### **Available leave update button**
 
@@ -209,7 +209,7 @@ Leave management is a critical module that tracks employee time off, including s
 * Supports employees in making informed decisions about taking time off when needed.  
 * Provides a simple and effective way to manage leave entitlements within the organization.
 
-![alt text](image-12.png)
+![alt text](media/image-12.png)
 
 ## **Leave Allocation Request**
 
@@ -222,7 +222,7 @@ Leave management is a critical module that tracks employee time off, including s
 * Ensures fairness and transparency in managing additional leave requests within the organization.  
 * Helps maintain consistent leave management practices across the company.
 
-![alt text](image-13.png)
+![alt text](media/image-13.png)
 
 ### **Leave Allocation Request Create Button**
 
@@ -237,7 +237,7 @@ Leave management is a critical module that tracks employee time off, including s
 * Streamlines the process, making it convenient for employees to request additional leave when necessary.  
 * Enhances the efficiency of handling leave requests within the organization.
 
-![alt text](image-14.png)
+![alt text](media/image-14.png)
 
 ### **Leave Allocation Request Approve/Reject Button**
 
@@ -262,16 +262,16 @@ Leave management is a critical module that tracks employee time off, including s
 * Simplifies the management of leave allocation requests.  
 * Makes it convenient to stay informed about the status of requests.
 
-![alt text](image-15.png)
+![alt text](media/image-15.png)
 
 ## **Compensatory Leave Request**
-![alt text](image-16.png)
+![alt text](media/image-16.png)
 
 * **Compensatory Leave Request**: Employees can request additional leave days as compensation for working on holidays or designated leave days. This process ensures that employees are properly credited for their extra work by converting their holiday attendance into leave days.  
 * **Submitting a Request**: Employees can formally submit a request to their manager or HR department to convert their holiday attendance into compensatory leave.   
 * **Reviewing the Request**: Managers or HR personnel will review the request, taking into account company policies and the employee’s specific situation. They will then either
 
-![alt text](image-17.png)
+![alt text](media/image-17.png)
 
 * **Enabling Compensatory Leave**:   
   * Go to **Settings \> Leave \> Compensatory Leave**.  
@@ -279,7 +279,7 @@ Leave management is a critical module that tracks employee time off, including s
 
 ### **Compensatory leave request Create Button**
 
-![alt text](image-18.png)
+![alt text](media/image-18.png)
 
 * **Create Button:** On the Compensatory Leave Request page, employees and managers can initiate a new request by clicking the "Create" button. This opens a form where the employee can enter the details  
 * The form typically includes:  
@@ -290,7 +290,7 @@ Leave management is a critical module that tracks employee time off, including s
 
 ### **Compensatory leave request Approve/Reject Button**
 
-![alt text](image-19.png)
+![alt text](media/image-19.png)
 
 * Managers or HR personnel can review and decide on the compensatory leave requests using the "Approve" or "Reject" buttons. A reason for rejection can be provided to maintain transparency.  
 * Managers or HR review the request and can either:  
@@ -300,7 +300,7 @@ Leave management is a critical module that tracks employee time off, including s
 
 ### **My Compensatory Leave Request**
 
-![alt text](image-20.png)
+![alt text](media/image-20.png)
 
 * Employees can track their requests under the "My Compensatory Leave Request" list view. This section displays:  
 * This view is especially for normal employees for tracking their submitted compensatory leave requests, including:  

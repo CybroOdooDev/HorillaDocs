@@ -1,3 +1,6 @@
+---
+outline : [2,3]
+---
 # Reimbursement
 ![alt text](media/image-15.png)
 The Reimbursement, Bonus Point, and Leave Encashment sections within the Payroll module of the HRMS enable HR professionals to manage employee-related financial transactions efficiently. Users can create, view, edit, and delete records related to reimbursements, bonus points, and leave encashments, ensuring all related details are accessible and organized.
