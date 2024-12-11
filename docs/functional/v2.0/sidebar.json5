@@ -45,5 +45,6 @@
       {text:"Encashments", link:"/functional/v2.0/payroll/encashment"},
       {text:"Federal Tax", link:"/functional/v2.0/payroll/federal_tax"},
     ]
-  }
+  },
+  { text: "Attendance", link: "/functional/v2.0/attendance/attendance"},
 ]
