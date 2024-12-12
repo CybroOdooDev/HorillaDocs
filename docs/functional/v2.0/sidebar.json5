@@ -50,4 +50,5 @@
   { text: "Leave", link: "/functional/v2.0/leave/leave"},
   { text: "Performance", link: "/functional/v2.0/performance/pms"},
   { text: "Asset", link: "/functional/v2.0/asset/asset"},
+  { text: "Offboarding", link: "/functional/v2.0/offboarding/offboarding"},
 ]

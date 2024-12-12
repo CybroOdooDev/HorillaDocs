@@ -150,7 +150,7 @@ In Horilla HRMS, deleting an asset is a straightforward process, but it's subjec
 To delete an asset, navigate to the Assets section from the main sidebar and access the “Asset View”. Select the specific asset category that contains the asset to delete. Within the displayed table, locate the asset and click on the delete icon in the last column of the asset's row. A confirmation prompt will appear, asking to confirm or cancel the asset deletion.  
 
 If the asset is not in use and confirm the deletion, the system will successfully delete the asset. However, if the asset is currently in use, the system will display a warning message, preventing the deletion from taking place.  
-    
+
 ##  Asset Request and Allocation
 ![alt text](media/image-12.png) 
 In Horilla HRMS, the Asset Request and Allocation feature is invaluable for managing asset allocation to employees and handling asset requests submitted by employees. For an admin user or a user with the necessary permissions, the Asset Request and Allocation page includes three tabs: Asset, Asset Request, and Asset Allocation. For an employee, this page contains two tabs: Asset and Asset Request.
