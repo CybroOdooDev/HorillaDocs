@@ -1,6 +1,7 @@
 [
   {text:"Dashboard", link:"/functional/v2.0/dashboard"},
   {
+    collapsed: false,
     text: "Recuritment",
     items: [
       {text:"Pipeline & Kanban", link:"/functional/v2.0/recruitment/pipeline"},
@@ -18,6 +19,7 @@
   },
   { text: "Onboarding", link: "/functional/v2.0/onboarding/onboarding"},
   {
+    collapsed: false,    
     text: "Employee",
     items: [
       {text:"Profile", link:"/functional/v2.0/employee/profile"},
@@ -33,6 +35,7 @@
     ]
   },
   {
+    collapsed: false,
     text: "Payroll",
     items: [
       {text:"Dashboard", link:"/functional/v2.0/payroll/dashboard"},
