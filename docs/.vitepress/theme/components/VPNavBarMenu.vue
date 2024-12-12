@@ -37,9 +37,9 @@ const updateVersionDisplay = () => {
   const version = versionMatch ? versionMatch[2] : null;
 
   if (version) {
-    const versionElement = document.querySelector('#activeVersion');
+    const versionElement = document.querySelector('nav [id=activeVersion]');
     if (versionElement) {
-      versionElement.textContent = version;
+      versionElement.innerHTML = version;
     }
   }
 };

@@ -90,7 +90,7 @@ export default defineConfig({
                 activeMatch: "/technical/"
             },
             {
-                text: '<span id="activeVersion" >v1.0</span>',
+                text: '<span id="activeVersion" >v2.0</span>',
                 items: [
                     { text: 'v1.0', link: '/functional/v1.0/' },
                     { text: 'v2.0', link: '/functional/v2.0/' },
